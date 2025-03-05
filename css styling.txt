@@ -464,4 +464,66 @@ Animating title
   background-color: #7600bc;
   color: white;
 }
+.completed {
+  background-color: #e0e0e0;
+  text-decoration: line-through;
+}
+
+.js-add-html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 30vh;
+}
+
+.js-add-html::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+.js-add-html::-webkit-scrollbar-thumb {
+  background-color: rgb(136, 132, 132);
+  border-radius: 7px;
+}
+
+.js-add-html::-webkit-scrollbar-track {
+  background-color: black;
+  border-radius: 5px;
+}
+#js-success-notification {
+  position: absolute;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: #a000c8;
+  width: 15%;
+  min-width: 200px;
+  height: 7%;
+  left: 2%;
+  bottom: 10%;
+  color: #d4edda;
+}
+.js-add-html-tasks {
+  border: 1px black solid;
+  height: fit-content;
+  max-height: 22vh; /*Added*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Londrina+Outline&display=swap');
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-10px);
+  }
+
+  60% {
+    transform: translateY(-5px);
+  }
+}
 
