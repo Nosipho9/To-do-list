@@ -175,3 +175,27 @@ h1 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 0.813rem; /*Added*/
 }
+.js-actions-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  grid-row: auto;
+  grid-column: auto;
+}
+
+.js-add-button,
+.js-cancel-button {
+  background-color: hex;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.js-add-button:hover {
+  background-color: darkgreen;
+}
