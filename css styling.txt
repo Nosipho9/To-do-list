@@ -642,3 +642,28 @@ Animating title
     padding-right: 3px;
   }
 }
+/*Added*/
+@media screen and (max-width: 990px) and (min-width: 947px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* For Add task counter */
+@media screen and (max-width: 611px) {
+  .sort-button,
+  .js-filter-input {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .task-counter-button {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container {
+    margin-top: 10px;
+    max-width: 100%;
+  }
+}
