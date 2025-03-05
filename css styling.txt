@@ -313,4 +313,155 @@ js-cancel-button {
 .js-edit-button img {
   margin-right: 5px;
 }
+footer {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px; /*Added*/
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media a {
+  margin: 1px 11px;
+  color: black;
+  font-size: 15px;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.social-media a:hover {
+  transform: scale(1.05);
+  transition: all 0.25s ease-out;
+  border: none;
+}
+
+.social-media .insta:hover {
+  background: linear-gradient(
+    45deg,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
+  color: white;
+}
+
+.social-media .facebook:hover {
+  background-color: #1877f2;
+  color: white;
+}
+
+.social-media .x:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.social-media .linkedin:hover {
+  background-color: #0a66c2;
+  color: white;
+}
+
+.social-media .github:hover {
+  background-color: white;
+}
+
+.social-media .youtube:hover {
+  background-color: white;
+  color: #ff0000;
+}
+
+/*
+Animating title
+*/
+
+.subtitle {
+  text-align: center;
+  color: #f6ac62;
+  font-family: 'Open sans', sans-serif;
+  font-family: cursive;
+  font-size: 5rem;
+  padding: 5px 16px; /*Added*/
+  text-shadow: #000000 3px 4px 10px;
+}
+
+.sort-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.sort-filter-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.sort-button,
+.js-filter-input {
+  background-color: #7600bc;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.sort-button:hover,
+.js-filter-input:hover {
+  background-color: #7600bc;
+}
+
+.task-counter-button {
+  background-color: #7600bc;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  width: auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.task-counter-button:hover {
+  background-color: #7600bc; /* Same hover effect as sort button */
+}
+
+.js-filter-input {
+  font-size: 15px;
+  padding: 10px 15px;
+  background-color: #7600bc;
+  color: white;
+}
 
