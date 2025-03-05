@@ -50,3 +50,29 @@
           placeholder="Add a new task here...."
           class="js-name-input"
         />
+<input type="date" class="js-date-input" min="" />
+        <input type="time" class="js-time-input" />
+        <select class="js-category-input">
+          <option value="">Select Category</option>
+          <option value="work">Work</option>
+          <option value="personal">Personal</option>
+          <option value="other">Other</option>
+        </select>
+        <select class="js-priority-input">
+          <option value="">Select Priority</option>
+          <option value="high">High</option>
+          <option value="medium">Medium</option>
+          <option value="low">Low</option>
+        </select>
+        <div class="js-actions-wrapper">
+          <button class="js-add-button" title="Add tasks">
+            <i class="fa-solid fa-add"></i> &nbsp; Add tasks
+          </button>
+          <button class="js-cancel-button" title="Cancel">
+            <i class="fa-solid fa-times"></i>
+          </button>
+        </div>
+        <div id="js-success-notification" style="display: none">
+          <p>Task completed 🎉</p>
+        </div>
+      </div>
